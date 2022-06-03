@@ -12,7 +12,7 @@ export const create = async () => {
             })
             return;
         } 
-        throw new Error('file just exist');
+        throw new Error('FS operation failed');
     })
     
 };
