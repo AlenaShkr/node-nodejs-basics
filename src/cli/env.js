@@ -1,3 +1,7 @@
 export const parseEnv = () => {
-    // Write your code here 
+    const envVariable = process.env;
+    let parsedEnvVariable = (Object.entries(envVariable)
+    .map(([key, value]) => [`RS_${key}=`, `${value}`])).join(';  ');
+    console.log(parsedEnvVariable);
 };
+parseEnv();
