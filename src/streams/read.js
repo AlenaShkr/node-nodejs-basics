@@ -4,7 +4,7 @@ export const read = async (url) => {
     let readStream = fs.createReadStream(url, { encoding: 'utf-8'});
     readStream.on('readable', () => {
         let chunk;
-        while(  (chunk = readStream.read()) !== null ){
+        while((chunk = readStream.read()) !== null){
             process.stdout.write(`${chunk}`);
         }
     })
