@@ -16,7 +16,8 @@
     "cli:env": "node src/cli/env.js --propName value --prop2Name value2",
     "stream:read": "node src/streams/read.js",
     "stream:write": "node src/streams/write.js",
-    "stream:transform": "node src/streams/transform.js"
+    "stream:transform": "node src/streams/transform.js",
+    "zip:compress": "node src/zip/compress.js"
   },
   "repository": {
     "type": "git",
