@@ -1,3 +1,6 @@
+import childProcess from 'node:child_process';
+
 export const spawnChildProcess = async (args) => {
-    // Write your code here
+    const child = childProcess.fork('src/cp/files/script.js');
 };
+spawnChildProcess();
