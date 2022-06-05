@@ -13,7 +13,8 @@
     "fs:rename": "node src/fs/rename.js",
     "hash": "node src/hash/calcHash.js",
     "cli:args": "node src/cli/args.js",
-    "cli:env": "node src/cli/env.js --propName value --prop2Name value2"
+    "cli:env": "node src/cli/env.js --propName value --prop2Name value2",
+    "stream:read": "node src/streams/read.js"
   },
   "repository": {
     "type": "git",
